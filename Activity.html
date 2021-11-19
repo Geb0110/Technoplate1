@@ -1,0 +1,194 @@
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"   >   
+    
+
+    <title>Document</title>
+</head>
+<body>
+   
+    
+    
+
+       
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Activity</span>
+          </a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+           
+            <a class="mr-5 hover:text-gray-900" href = "@home.html" > Home</a>
+            
+          
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Log in
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+              
+            </svg>  
+          </button>
+         
+
+          
+        </div>
+      </header>
+      <link rel="stylesheet" type="text/css" href="main.css" media="main">
+      <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+        <div class="flex flex-col mb-10 lg:items-start items-center">
+          
+            
+            
+          
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3 text-decoration = underline "> Absent:</h2>
+            <form >
+            <div>
+              <input type="radio" id="Full-day" name = "Absence-type">
+              <label for="Full-day">Full Day</label>
+              <br>
+
+              <div class="container px-1 py-1 mx-auto">              
+<div class="flex flex-wrap -m-4">
+    <div class="p-4 md:w-1/1.1">
+      <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+     <div id = "Full Day">
+    <fieldset>
+  <p> &emsp; </p>
+  Start Date <input class = "ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg " type = "datetime-local" id="Full-day-date-start">
+  <label for = "Full-day-date-start">  </label>
+  <p> &emsp; </p>
+  End Date <input class = "ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg " type = "datetime-local" id="Full-day-date-end">
+  <label for = "Full-day-date-end">  </label>
+  <p> &emsp; </p>
+  <input type="radio" id="Full-day-today"   >               
+  <label for="Full-day-today"> Today </label>
+</div>
+       
+      </div>
+  </div>
+  </div>
+            </div>
+            </div>
+        </fieldset>
+            <br>
+
+            <div>
+              <input type="radio" id="Half-day" name = "Absence-type">
+              <label for="Half-day">Half Day</label>              
+              <br>
+
+            <div class="container px-1 py-1 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                  <div class="p-4 md:w-1/1.1">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                     <div id = "Half Day" class="flex justify-center">
+                            Choose Date <input class = "ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg" type = "datetime-local" id="Half-day-date">
+                            <label for = "Half-day-date">  </label>
+                            <p> &emsp; </p>
+                             <input type="radio" id="half-day-today"   >               
+                            <label for="half-day-today"> Today </label>
+                          </div>
+                        </div>
+                    </div>
+                 </div>
+                 </div>
+            </div>           
+            
+            <br>
+            <div>
+              <input type="radio" id="Particular-period" name = "Absence-type">
+              <label for="Particular-period">Particular Periods</label>
+              <br>
+              <div class="container px-1 py-1 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                  <div class="p-4 md:w-1/1.1">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                     <div id = "Particular Period" >
+                            <input type="checkbox" id="Select1">
+                            <label for="Select1">1</label>
+                            <input type="checkbox" id="Select2">
+                            <label for="Select2"> 2</label>
+                            <input type="checkbox" id="Select3">
+                            <label for="Selecect3">3</label>
+                            <input type="checkbox" id="Select4">
+                            <label for="Select4">4</label>
+                            <input type="checkbox" id="Select5">
+                            <label for="Select5">5</label>
+                            <input type="checkbox" id="Select6">
+                            <label for="Select6">6</label>
+                            <input type="checkbox" id="Select7">
+                            <label for="Select7">7</label>
+                            <input type="checkbox" id="Select8">
+                            <label for="Select8">8</label>
+                           
+                          </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+            <br>
+            <br>
+            <div class="flex justify-center">
+                <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Submit</button>
+                <input type = "reset" class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg" value="Reset">
+               
+              </div>
+              
+            </form>
+            <br>
+            
+        
+
+</body>
+<script>
+  var divFullDay = document.getElementById("Full Day");
+  divFullDay.style.display = "none";
+  var divHalfDay = document.getElementById("Half Day");
+  divHalfDay.style.display = "none";
+  var divPartPer = document.getElementById("Particular Period");
+  divPartPer.style.display = "none";
+
+  var radioFD = document.getElementById("Full-day");
+  radioFD.checked = true;
+  var radioHD = document.getElementById("Half-day");
+  var radioPP = document.getElementById("Particular-period");
+
+  var FDChecked;
+  var HDChecked;
+  var PPChecked;
+
+  setInterval(function(){
+    FDChecked = radioFD.checked;
+    HDChecked = radioHD.checked;
+    PPChecked = radioPP.checked;
+    if(FDChecked){
+      divFullDay.style.display = "inline";
+    }
+    if(!(FDChecked)){
+      divFullDay.style.display = "none";
+    }
+    if(HDChecked){
+      divHalfDay.style.display = "inline";
+    }
+    if(!(HDChecked)){
+      divHalfDay.style.display = "none";
+    }
+    if(PPChecked){
+      divPartPer.style.display = "inline";
+    }
+    if(!(PPChecked)){
+      divPartPer.style.display = "none";
+    }
+    }, 500);
+  
+</script>
+</html>

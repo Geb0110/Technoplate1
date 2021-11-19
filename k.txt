@@ -1,0 +1,39 @@
+
+<div class="flex flex-wrap -m-4">
+                  <div class="p-4 md:w-1/3">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <div id = "Half Day" class="flex justify-center">
+                Choose Date <input class = "ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg" type = "datetime-local" id="Half-day-date">
+                <label for = "Half-day-date">  </label>
+              </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+         <div id = "Particular Period" >
+                <input type="checkbox" id="Select1">
+                <label for="Select1">1</label>
+                <input type="checkbox" id="Select2">
+                <label for="Select2"> 2</label>
+                <input type="checkbox" id="Select3">
+                <label for="Selecect3">3</label>
+                <input type="checkbox" id="Select4">
+                <label for="Select4">4</label>
+                <input type="checkbox" id="Select5">
+                <label for="Select5">5</label>
+                <input type="checkbox" id="Select6">
+                <label for="Select6">6</label>
+                <input type="checkbox" id="Select7">
+                <label for="Select7">7</label>
+                <input type="checkbox" id="Select8">
+                <label for="Select8">8</label>
+               
+              </div>
+</div>
+</div>
+</div>
+</div>
